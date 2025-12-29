@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LightningApp - 用戶資料刪除請求 / User Data Deletion Request</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #4ade80 0%, #3b82f6 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+        
+        .content {
+            padding: 40px 30px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section h2 {
+            color: #4ade80;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        
+        .section h3 {
+            color: #3b82f6;
+            font-size: 1.2em;
+            margin: 20px 0 10px 0;
+        }
+        
+        .section p, .section li {
+            margin-bottom: 10px;
+            color: #4b5563;
+        }
+        
+        .section ul, .section ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .highlight-box {
+            background: #f0fdf4;
+            border-left: 4px solid #4ade80;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .warning-box {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .email-link {
+            color: #3b82f6;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        
+        .email-link:hover {
+            color: #2563eb;
+            text-decoration: underline;
+        }
+        
+        .footer {
+            background: #f9fafb;
+            padding: 30px;
+            text-align: center;
+            color: #6b7280;
+            border-top: 1px solid #e5e7eb;
+        }
+        
+        .lang-divider {
+            margin: 40px 0;
+            border: 0;
+            border-top: 2px dashed #e5e7eb;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px auto;
+                border-radius: 12px;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+            
+            .header h1 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>⚡ LightningApp</h1>
+            <p>用戶資料刪除請求 / User Data Deletion Request</p>
+        </div>
+        
+        <div class="content">
+            <!-- 繁體中文版本 -->
+            <div class="section">
+                <h2>🇹🇼 繁體中文</h2>
+                
+                <h3>如何刪除您的帳戶和資料</h3>
+                <p>我們尊重您的隱私權。如果您希望刪除您在 LightningApp 中的帳戶和所有相關數據，請按照以下步驟操作：</p>
+                
+                <div class="highlight-box">
+                    <h3>📧 提交刪除請求</h3>
+                    <p><strong>步驟 1：</strong> 發送電子郵件至 <a href="mailto:s79131739@gmail.com" class="email-link">s79131739@gmail.com</a></p>
+                    <p><strong>步驟 2：</strong> 在郵件主旨中註明：<strong>「LightningApp 帳戶刪除請求」</strong></p>
+                    <p><strong>步驟 3：</strong> 在郵件內容中包含以下信息：</p>
+                    <ul>
+                        <li>您註冊的電子郵件地址</li>
+                        <li>您的用戶ID（如果知道）</li>
+                        <li>您使用的登入方式（電子郵件、Google、Facebook、Apple 等）</li>
+                    </ul>
+                </div>
+                
+                <h3>⏱️ 處理時間</h3>
+                <p>我們將在收到您的請求後 <strong>30 天內</strong>處理並刪除您的所有數據。</p>
+                
+                <h3>🗑️ 將被刪除的數據</h3>
+                <ul>
+                    <li>您的帳戶信息</li>
+                    <li>個人資料</li>
+                    <li>應用內產生的所有數據</li>
+                    <li>登入記錄</li>
+                </ul>
+                
+                <div class="warning-box">
+                    <strong>⚠️ 注意：</strong>帳戶刪除後無法恢復。請確保您已備份任何需要保留的數據。
+                </div>
+            </div>
+            
+            <hr class="lang-divider">
+            
+            <!-- English Version -->
+            <div class="section">
+                <h2>🇬🇧 English</h2>
+                
+                <h3>How to Delete Your Account and Data</h3>
+                <p>We respect your privacy. If you wish to delete your LightningApp account and all associated data, please follow these steps:</p>
+                
+                <div class="highlight-box">
+                    <h3>📧 Submit Deletion Request</h3>
+                    <p><strong>Step 1:</strong> Send an email to <a href="mailto:s79131739@gmail.com" class="email-link">s79131739@gmail.com</a></p>
+                    <p><strong>Step 2:</strong> Use the subject line: <strong>"LightningApp Account Deletion Request"</strong></p>
+                    <p><strong>Step 3:</strong> Include the following information in your email:</p>
+                    <ul>
+                        <li>Your registered email address</li>
+                        <li>Your user ID (if known)</li>
+                        <li>Your sign-in method (Email, Google, Facebook, Apple, etc.)</li>
+                    </ul>
+                </div>
+                
+                <h3>⏱️ Processing Time</h3>
+                <p>We will process and delete all your data within <strong>30 days</strong> of receiving your request.</p>
+                
+                <h3>🗑️ Data to be Deleted</h3>
+                <ul>
+                    <li>Your account information</li>
+                    <li>Personal profile data</li>
+                    <li>All data generated within the app</li>
+                    <li>Login records</li>
+                </ul>
+                
+                <div class="warning-box">
+                    <strong>⚠️ Warning:</strong> Account deletion is irreversible. Please ensure you have backed up any data you wish to keep.
+                </div>
+            </div>
+            
+            <hr class="lang-divider">
+            
+            <!-- 日本語版 -->
+            <div class="section">
+                <h2>🇯🇵 日本語</h2>
+                
+                <h3>アカウントとデータの削除方法</h3>
+                <p>お客様のプライバシーを尊重いたします。LightningApp のアカウントと関連するすべてのデータを削除したい場合は、以下の手順に従ってください：</p>
+                
+                <div class="highlight-box">
+                    <h3>📧 削除リクエストの送信</h3>
+                    <p><strong>ステップ 1：</strong> <a href="mailto:s79131739@gmail.com" class="email-link">s79131739@gmail.com</a> にメールを送信</p>
+                    <p><strong>ステップ 2：</strong> 件名に次のように記載：<strong>「LightningApp アカウント削除リクエスト」</strong></p>
+                    <p><strong>ステップ 3：</strong> メール本文に以下の情報を含める：</p>
+                    <ul>
+                        <li>登録したメールアドレス</li>
+                        <li>ユーザーID（わかる場合）</li>
+                        <li>サインイン方法（メール、Google、Facebook、Apple など）</li>
+                    </ul>
+                </div>
+                
+                <h3>⏱️ 処理時間</h3>
+                <p>リクエストを受け取ってから <strong>30 日以内</strong>にすべてのデータを処理し削除いたします。</p>
+                
+                <h3>🗑️ 削除されるデータ</h3>
+                <ul>
+                    <li>アカウント情報</li>
+                    <li>個人プロフィールデータ</li>
+                    <li>アプリ内で生成されたすべてのデータ</li>
+                    <li>ログイン記録</li>
+                </ul>
+                
+                <div class="warning-box">
+                    <strong>⚠️ 注意：</strong>アカウントの削除は取り消せません。保存したいデータは必ずバックアップしてください。
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Last updated: December 2025</p>
+            <p>© 2025 LightningApp. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
